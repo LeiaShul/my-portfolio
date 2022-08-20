@@ -1,13 +1,21 @@
 :root {
-    --primary-color: #6c63ff;
-    --secondary-color: #f5f2fe;
-    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    --primary-color: #393663;
+    --secondary-color: #F9F7FE;
+    --color3:white;
+    --color4: black;
 }
-
-body {
-    margin-top: 100px !important;
+.navbar{
+    background: var(--secondary-color);
 }
-
+.homepage-hero {
+    background: var(--secondary-color);
+    color: var(--color4);
+    padding: 160px 20px;
+    margin-bottom: 20px;
+}
+.navbar-collapse{
+    flex-grow: 0 !important;
+}
 h1,
 h3 {
     text-align: center;
@@ -16,15 +24,18 @@ h3 {
 
 h1 {
     font-size: 96px !important;
+    font-family: 'Playfair Display SC', serif;
 }
 
 h2 {
     font-size: 48px !important;
+    font-family: 'Poppins';
 }
 
 h3 {
     font-size: 24px !important;
     opacity: 0.7;
+
 }
 
 p {
@@ -35,39 +46,17 @@ p {
 
 .navigation-links {
     display: flex;
-    margin: 40px;
+    margin: 60px;
     justify-content: center;
 }
 
-.navigation-links a {
-    margin: 20px;
+.navigation-links a, .primary-link {
     border-radius: 4px;
     padding: 20px 15px;
     text-decoration: none;
-    text-transform: capitalize;
-}
-
-.contact-link {
     background: var(--primary-color);
-    box-shadow: var(--box-shadow);
     color: white;
 }
-
-.about-link {
-    color: var(--primary-color);
-    border: 1px solid var(--primary-color);
-}
-
-.primary-link {
-    background: var(--primary-color);
-    box-shadow: var(--box-shadow);
-    color: white;
-    border-radius: 4px;
-    padding: 20px 15px;
-    text-decoration: none;
-    text-transform: capitalize;
-}
-
 .homepage-link {
     color: var(--primary-color);
     text-align: center;
