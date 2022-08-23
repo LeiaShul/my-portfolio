@@ -110,7 +110,6 @@ p {
 @media(max-width:992px){
     .about-h1 {
         font-size: 48px !important;
-        font-weight: 700;
 }
 }
 @media(max-width:768px){
@@ -146,4 +145,10 @@ p {
     .logo {
         max-width:180px ;
     } 
+    .about-h1 {
+        font-size: 30px !important;
+    }
+    .about-h3 {
+        font-size: 14px !important;
+    }
 }
