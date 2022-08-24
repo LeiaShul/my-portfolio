@@ -150,7 +150,7 @@ p {
     .logo {
         max-width:180px ;
     } 
-    .about-h1, .work-h1 {
+    .about-h1, .work-h1, .contact-h1 {
         font-size: 36px !important;
     }
     .about-h3 {
