@@ -85,7 +85,7 @@ p {
 .email-link:hover {
     text-decoration: underline;
 }
-.about-h1,.work-h1 {
+.about-h1,.work-h1,.contact-h1 {
     font-size: 64px !important;
     font-weight: 700;
 }
