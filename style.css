@@ -3,6 +3,8 @@
     --secondary-color: #F9F7FE;
     --color3:white;
     --color4: black;
+    --default-font-family: 'Poppins';
+    --secondary-font-family: 'Playfair Display SC', serif;
 }
 .navbar{
     background: var(--secondary-color);
@@ -16,24 +18,26 @@
 .navbar-collapse{
     flex-grow: 0 !important;
 }
+body{
+    font-family:var(--default-font-family) !important;
+}
 h1,
 h3 {
     text-align: center;
     margin: 0 !important;
 }
 h4{
-    font-size: 48px;
-    font-weight: 700;
-    font-family: 'Playfair Display SC', serif;
+    font-size: 48px !important;
+    font-weight: 700 !important;
+    font-family: var(--secondary-font-family);
 }
 h1 {
     font-size: 96px !important;
-    font-family: 'Playfair Display SC', serif;
+    font-family: var(--secondary-font-family);
     font-weight: 700 !important;
 }
 h2 {
     font-size: 36px !important;
-    font-family: 'Poppins';
 }
 h3 {
     font-size: 24px !important;
