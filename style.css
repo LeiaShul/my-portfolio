@@ -179,4 +179,7 @@ p {
     .about-h3 {
         font-size: 14px !important;
     }
+    .contact-box {
+        display: none;
+    }
 }

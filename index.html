@@ -47,7 +47,7 @@
     <p class="m-5 text-center">Check out some of my featured projects below</p>
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6" id="weather-img">
                 <img src="images/weather.png" alt="Weather project preview" class="img-fluid rounded" />
             </div>
             <div class="col-md-6">
@@ -56,8 +56,12 @@
                     A fully-functioning weather app built using advanced JavaScript, Bootstrap, API's and real-life development workflow.
                     It's open-sourced and hosted on Netlify.
                 </p>
-                <div class="mt-5">
-                    <a href="https://weather-by-leiashul.netlify.app/" target="_blank" class="primary-link">Launch Weather app</a>
+                <div class="mt-5 mb-3">
+                    <a href="https://weather-by-leiashul.netlify.app/"  target="_blank" id="weather-link" class="primary-link">Launch Weather app</a>
+                    
+                </div>
+                <div class="mt-5 d-inline-block">
+                    <a href="https://weather-react-leia-shul.netlify.app/" target="_blank" id="weather-react-link" class="primary-link">Launch Weather React app</a>
                 </div>
             </div>
         </div>
@@ -98,7 +102,7 @@
         <div class="footer text-md-start my-5">
             <div class="contact-box my-5 d-md-flex justify-content-between">
                 <div>
-                    <h4 class="">Work Inquiry</h4>
+                    <h4>Work Inquiry</h4>
                     <p class="text-muted">Let’s work together and i’ll help you by all my best</p>
                 </div>
                 <div class="my-auto">
@@ -121,6 +125,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
+    <script src="./index.js" ></script>
 </body>
 
 </html>
