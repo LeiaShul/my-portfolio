@@ -38,6 +38,7 @@ h1 {
 }
 h2 {
     font-size: 36px !important;
+    font-family: var(--secondary-font-family);
 }
 h3 {
     font-size: 24px !important;
@@ -97,6 +98,10 @@ p {
 }
 .about-h1,.work-h1,.contact-h1 {
     font-size: 64px !important;
+    font-weight: 700;
+}
+.about-h2{
+    font-size: 30px !important;
     font-weight: 700;
 }
 .about-h3 {
@@ -175,6 +180,9 @@ p {
     } 
     .about-h1, .work-h1, .contact-h1 {
         font-size: 36px !important;
+    }
+    .about-h2 {
+        font-size: 24px !important;
     }
     .about-h3 {
         font-size: 14px !important;
